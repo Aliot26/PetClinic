@@ -3,7 +3,7 @@ package volha.spring.model;
 /**
  * created 05.01.2020
  */
-public class Person {
+public class Person extends BaseEntity{
     private String firstName;
     private String lastName;
 

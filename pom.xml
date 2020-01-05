@@ -42,6 +42,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:Aliot26/PetClinic.git</developerConnection>
+        <tag>HEAD</tag>
     </scm>
 
 </project>

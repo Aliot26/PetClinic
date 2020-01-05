@@ -2,6 +2,9 @@ package volha.spring.model;
 
 import java.time.LocalDate;
 
+/**
+ * created 05.01.2020
+ */
 public class Pet {
     PetType petType;
     Owner owner;

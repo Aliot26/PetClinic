@@ -3,10 +3,13 @@ package volha.spring.petclinic.comtrollers;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+@RequestMapping("/vets")
 @Controller
 public class VetsController {
-    @RequestMapping({"/vets", "/vets/index", "/vets/index.html"})
-    public String listVets(){
+
+    @RequestMapping({"", "/", "/index", "/index.html"})
+    public String listVets() {
+
         return "vets/index";
     }
 }

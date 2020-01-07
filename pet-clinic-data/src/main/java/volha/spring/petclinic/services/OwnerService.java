@@ -1,6 +1,6 @@
-package volha.spring.services;
+package volha.spring.petclinic.services;
 
-import volha.spring.model.Owner;
+import volha.spring.petclinic.model.Owner;
 
 public interface OwnerService extends CrudService<Owner, Long> {
 

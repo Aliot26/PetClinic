@@ -1,4 +1,4 @@
-package volha.spring.model;
+package volha.spring.petclinic.model;
 
 import java.time.LocalDate;
 

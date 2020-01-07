@@ -1,4 +1,4 @@
-package volha.spring.model;
+package volha.spring.petclinic.model;
 
 /**
  * created 05.01.2020

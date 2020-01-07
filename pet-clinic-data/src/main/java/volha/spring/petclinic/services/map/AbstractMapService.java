@@ -1,4 +1,4 @@
-package volha.spring.services.map;
+package volha.spring.petclinic.services.map;
 
 import java.util.HashMap;
 import java.util.HashSet;

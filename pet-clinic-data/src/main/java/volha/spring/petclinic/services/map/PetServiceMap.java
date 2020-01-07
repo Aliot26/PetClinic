@@ -1,11 +1,11 @@
-package volha.spring.services.map;
+package volha.spring.petclinic.services.map;
 
-import volha.spring.model.Pet;
-import volha.spring.services.CrudService;
+import volha.spring.petclinic.model.Pet;
+import volha.spring.petclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> finfAll() {
         return super.findAll();

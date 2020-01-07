@@ -1,4 +1,4 @@
-package volha.spring.services;
+package volha.spring.petclinic.services;
 
 import java.util.Set;
 

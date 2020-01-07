@@ -1,10 +1,11 @@
 package volha.spring.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import volha.spring.petclinic.model.Vet;
 import volha.spring.petclinic.services.VetService;
 
 import java.util.Set;
-
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> finfAll() {

@@ -1,15 +1,17 @@
 package volha.spring.petclinic.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import volha.spring.petclinic.model.Owner;
 import volha.spring.petclinic.services.OwnerService;
 
 import java.util.Set;
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     @Override
-    public Set<Owner> finfAll() {
+    public Set<Owner> findAll() {
         return super.findAll();
     }
 

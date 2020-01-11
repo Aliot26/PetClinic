@@ -3,7 +3,7 @@ package volha.spring.petclinic.services;
 import java.util.Set;
 
 public interface CrudService<T, ID> {
-    Set<T> finfAll();
+   Set<T> findAll();
 
     T findById(ID id);
 

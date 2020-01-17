@@ -4,6 +4,7 @@ package volha.spring.petclinic.model;
  * created 05.01.2020
  */
 public class PetType extends BaseEntity {
+
     private String name;
 
     public String getName() {

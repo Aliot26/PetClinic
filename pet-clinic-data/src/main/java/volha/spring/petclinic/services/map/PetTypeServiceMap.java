@@ -33,3 +33,4 @@ public class PetTypeServiceMap extends AbstractMapService<PetType, Long> impleme
         super.deleteById(id);
     }
 }
+

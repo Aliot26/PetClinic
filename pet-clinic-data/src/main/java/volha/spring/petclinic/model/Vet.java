@@ -13,7 +13,6 @@ import java.util.Set;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@Builder
 @Entity
 @Table(name = "vets")
 public class Vet extends Person {
@@ -24,4 +23,8 @@ public class Vet extends Person {
             inverseJoinColumns = @JoinColumn(name = "specialty_id"))
     private Set<Speciality> specialities = new HashSet<>();
 
+    @Builder
+    public Vet(Long id, String firstName, String lastName) {
+        super(id, firstName, lastName);
+    }
 }
